@@ -1,10 +1,5 @@
-function compareArrays(arr1, arr2) {
-  
-  let result = arr1.length === arr2.length && arr1.every(function(currentValue, index) { 
-    return currentValue === arr2[index];
-  })
-  
-  return result; // boolean
+function compareArrays(arr1, arr2) { 
+  return arr1.length === arr2.length && arr1.every((currentValue, index) => currentValue === arr2[index]);  
 }
 
 function advancedFilter(arr) {
