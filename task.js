@@ -3,9 +3,5 @@ function compareArrays(arr1, arr2) {
 }
 
 function advancedFilter(arr) {
-  let resultArr;
-
-  // Ваш код
-
-  return resultArr; // array
+  return resultArr = arr.filter((selectPosivive) => selectPosivive >= 1).filter((cardinalityCheck) => cardinalityCheck % 3 === 0).map((multiplication) => multiplication * 10);  
 }
